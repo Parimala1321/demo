@@ -1,0 +1,236 @@
+/* .main{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    position: relative;
+}
+.main::after{
+     display: inline; 
+    content: "this is parimala";
+    
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+} */
+
+li::before{
+    content: "hii";
+}
+.main{
+    height: 60px;
+    width: 120px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size: 100%;
+    border: 2px solid blue;
+    color:blue;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+.main:hover{
+    color: white;
+    z-index:2780;
+}
+.main::after{
+    content: "";
+    height: 60px;
+    width: 120px;
+    border-radius:50px;
+    background-color: aqua;
+    position: absolute;
+    left:400px;
+    transition: all 1s;
+}
+.main:hover::after{
+    color:whitesmoke;
+    z-index:-987;
+    left:0px;
+}
+
+.shape{
+    height:100px;
+    width: 250px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+    border: 2px solid rgb(64, 129, 138);
+    color:rgb(42, 130, 182);
+    position: relative;
+    overflow: hidden;
+    transition: all 2s;
+    /* transform: skew(30deg); */
+}
+.shape:hover{
+    z-index:26306;
+    color: rgb(237, 0, 0);
+    transform: skew(30deg);
+    /* transition: all 2s; */
+}
+.shape:hover::before{ 
+    position: absolute;
+    left:0px;
+    transition: all 1s;
+    z-index: -6145;
+    /* transform: rotate(360deg); */
+}
+.shape::before{
+    content: "";
+    height: 100px;
+    width: 250px;
+    border-radius:50px;
+    background-color: aqua;
+    position: absolute;
+    left:400px;
+    transition: all 1s;
+    /* transform: skew(90deg); */
+}
+.div1{
+    height:120px;
+    width: 300px;
+    /* border-radius:50px; */
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+     /* background-color: aqua; */
+    border: 2px solid rgb(211, 212, 223);
+    color:rgb(241, 0, 76);
+    position: relative;
+    left:10%;
+    overflow: hidden;
+    /* transition: all 2s; */
+}
+.div1:hover{
+    z-index:26306;
+    color: rgb(237, 0, 0);
+    transform: skew(30deg);
+    /* border-radius: 50px; */
+}
+.div1::after{
+    content: "";
+    height: 120px;
+    width: 300px;
+    /* border-radius:50px; */
+    background-color: rgb(7, 225, 225);
+    position: absolute;
+    left:400px;
+    transition: all 1s;
+    /* transform:skew(30deg); */
+}
+.div1:hover::after{
+    position: absolute;
+    left:0px;
+    /* border-radius: 50px; */
+    /* transition: all 1s; */
+    z-index: -6145;
+}
+
+.div2{
+    height:120px;
+    width: 300px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+     /* background-color: aqua; */
+    border: 2px solid rgb(211, 212, 223);
+    color:rgb(241, 0, 76);
+    position: relative;
+    left:10%;
+    overflow: hidden;
+    /* transition: all 2s; */
+}
+.div2:hover{
+    z-index:5648f;
+    /* background: rgb(2,0,36); */
+/* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(176,180,203,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.div2::after{
+    content: "";
+    height: 120px;
+    width: 300px;
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,27,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    left:400px;
+    transition: all 1s;
+    /* transform:skew(30deg); */
+}
+.div2:hover::after{
+    content: "tanuja";
+    position: absolute;
+    left:0px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: all 1s; */
+    z-index:6145;
+}
+.div3{
+    height: 10%;
+    width: 20%;
+    background-color: rgb(78, 104, 104);
+    border-radius: 50px;
+    position: relative;
+    left: 10%;
+    top:10%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+}
+.div3:hover{
+    z-index:26377;
+    color: rgb(237, 0, 0);
+    /* transform: skew(30deg); */
+    /* border-radius: 50px; */
+    box-shadow: 2px 2px 20px rgb(235, 29, 6);
+}
+.sub{
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+    position: relative;
+    top:10%;
+    left:10%;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+     overflow: hidden;
+}
+.sub:hover{
+    z-index:26377;
+    color: rgb(237, 0, 0);
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgb(235, 29, 6);
+}
+.sub::after{
+    content: "its a circle";
+    height: 200px;
+    width: 300px;
+    background-color: rgb(184, 136, 31);
+    position:absolute;
+    left:200%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     font-size:200%;
+     overflow: hidden;
+}
+
+.sub:hover::after{
+    content: "Its a circle";
+    position:absolute;
+    border-radius: 50%;
+    left:0%;
+    z-index:6145;
+    transition: all 1s;
+}

@@ -1,0 +1,304 @@
+.main{
+    height: 100%;
+    width:1500px;
+    /* background-color:wheat; */
+}
+.div1{
+    height: 50%;
+    width: 100%;
+    background:linear-gradient(to top right,#12567B,#7ECBC5);
+    position: relative;
+}
+.s1{
+    height:15%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+}
+.sub1{
+    height: 100%;
+    width:10%;
+    /* background-color: bisque; */
+    float: left;
+}
+.sub11{
+    height:42%;
+    width:13%;
+    border: 2px solid black;
+    border-radius: 10%;
+    position: relative;
+    top: 16%;
+    left:16%;
+    box-shadow:6px 6px black;
+    float:left;
+}
+.sub12{
+    float: right;
+    font-size:250%;
+    font-weight:900;
+}
+.sub2{
+    height: 100%;
+    width:70%;
+    /* background-color: blue; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.c1{
+    color: #00e1ff;
+}
+.c2{
+    color:white;
+}
+.sub3{
+    height: 100%;
+    width:20%;
+    /* background-color:bisque; */
+    float: right;
+}
+.sub31{
+    font-size:250%;
+    position: relative;
+    top:10%;
+    left:70%;
+    color: white;
+}
+.s2{
+    height:20%;
+    width:50%;
+    position: absolute;
+    top:20%;
+    left:32%;
+    /* background-color: aqua; */
+    font-size:400%;
+    color: white;
+}
+.s3{
+    position: absolute;
+    top:35%;
+    left:38%;
+    font-size:150%;
+    color:#165B77;
+}
+.s4{
+    height: 15%;
+    width: 52%;
+    position: absolute;
+    top:55%;
+    left:25%;
+    background-color:white;
+    border-radius:40px;
+    display: flex;
+}
+.s41{
+    height: 100%;
+    width:8%;
+     font-size:230%;
+     color:rgb(140, 126, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s42{
+   height: 100%;
+   width: 80%;
+   /* background-color:blue; */
+   display: flex;
+   align-items: center;
+   /* justify-content: start; */
+   font-size:160%;
+   color:#a39d8f;
+}
+.s43{
+    height:80%;
+    width:10%;
+    background-color:#82CFC7;
+    position: relative;
+    top: 10%;
+    border-radius:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 140%;
+    color: white;
+}
+.div2{
+    height: 50%;
+    width: 100%;
+    background-color:#82CFC7;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    position: relative;
+}
+.f1{
+    height:110%;
+    width:20%;
+    background-color:white;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    border-radius: 10px;
+    position: relative;
+}
+.f11{
+    height: 10%;
+    width:100%;
+    /* background-color: aqua; */
+    position: relative;
+    top:4%;
+}
+.f111{
+    height: 10%;
+    width: 80%;
+    font-size: 200%;
+    position: relative;
+    left: 10%;
+    font-weight: 200;
+}
+.f112{
+     float: right;
+    height: 70%;
+    width: 10%;
+   background-color: #82CFC7;
+   position: relative;
+   right:8%;
+   border-radius:6px;
+   color: white;
+   font-size: 130%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.f12{
+    height: 70%;
+    width:78%;
+    position:relative;
+    top:8%;
+    left:6%;
+    font-size: 110%;
+    color: gray;
+}
+.f13{
+    height:40%;
+    width: 80%;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -35%;
+    left: 10%;
+    background-image: url(./pic1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f2{
+    height: 110%;
+    width: 40%;
+    background-color: beige;
+    position: absolute;
+    top: -20%;
+    left:42%;
+    border-radius: 10px;
+    background-image:url(./graph2) ;
+    background-size: cover;
+}
+.f21{
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    top:4%;
+}
+.f211{
+    height: 10%;
+    width: 80%;
+    font-size: 200%;
+    position: relative;
+    left: 10%;
+    font-weight: 220;
+    color: #82CFC7;
+}
+.f212{
+     float: right;
+    height: 70%;
+    width:6%;
+   background-color:#6F75E3;
+   position: relative;
+   right:8%;
+   border-radius:6px;
+   color: white;
+   font-size: 130%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.f3{
+    height: 70%;
+    width:78%;
+    position:relative;
+    top:8%;
+    left:10%;
+    font-size: 120%;
+    color: #82CFC7;
+}
+.f4{
+    height:13%;
+    width: 22%;
+    background-color: #00e1ff;
+    font-size: 150%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:10%;
+    top: -40%;
+    color:white ;
+}
+.f6{
+    height: 10%;
+    width: 10%;
+     font-size: 150%;
+     position:relative;
+     left:8%;
+     top: -10%;
+     color: #82CFC7;
+}
+.f7{
+    height: 10%;
+    width:8%;
+     /* background-color: grey; */
+     position:relative;
+     left: 22%;
+     top:-20%;
+     font-size: 200%;
+     color:#82CFC7;
+}
+.f8{
+    height: 10%;
+    width:8%;
+     /* background-color:blue; */
+     position:relative;
+     left: 30%;
+     top:-30%;
+     font-size: 200%;
+     color:#82CFC7;
+}
+.f9{
+    height: 10%;
+    width:8%;
+     /* background-color: green; */
+     position: relative;
+     left:38%;
+     top:-40%;
+     font-size: 200%;
+     color: #82CFC7;
+}
+.f10{
+    position: relative;
+    top: -47%;
+    left:90%;
+    font-size: 120%;
+    color:white ;
+}

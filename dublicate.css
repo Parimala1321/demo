@@ -1,0 +1,64 @@
+body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-image: url(./ppt2);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    font-size:32px;
+    border-radius:50px;
+    /* background-color:aqua; */
+    d: rgb(1,246,236);
+background: linear-gradient(90deg, rgba(1,246,236,1) 1%, rgba(0,222,213,1) 4%, rgba(2,255,245,1) 17%, rgba(0,248,238,1) 22%, rgba(0,255,244,1) 28%, rgba(0,229,220,1) 34%, rgba(110,140,139,1) 44%, rgba(0,194,186,1) 77%, rgba(0,218,208,1) 93%);
+background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    box-shadow: 3px 1px 15px red;
+    margin-top:30%;
+    margin-left:45%;
+}
+table{
+    display :none;
+    height:fit-content;
+    width:fit-content;
+    border: 1px solid black;
+    border-collapse: collapse;
+   position:absolute;
+   top:-550%;
+   left:35%;
+   box-shadow: 2px 2px 25px rgb(104, 8, 8);
+   background-color:bisque;
+ 
+}
+td{
+    padding: 10px;
+     
+
+}
+tr:hover{
+    background-color:white;
+}
+th{
+     background-color: red;
+}
+.update-btn:hover{
+  
+    transform: scale(1.07);
+    background: rgb(0,252,255);
+background: linear-gradient(0deg, rgba(0,252,255,1) 0%, rgba(0,237,247,1) 30%, rgba(16,110,222,1) 100%);
+    
+    
+    
+}
+.remove-btn:hover{
+    background: rgb(0,252,255);
+    background: linear-gradient(0deg, rgba(0,252,255,1) 0%, rgba(0,237,247,1) 30%, rgba(16,110,222,1) 100%);
+    transform: scale(1.03);
+}

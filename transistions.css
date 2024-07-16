@@ -1,0 +1,16 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(235, 83, 1);
+    /* transition-property:all; */
+    /* transition-duration:5S; */
+    /* transition-delay: 5s; */
+    transition:all 5s linear;
+}
+.main:hover{
+    height: 600px;
+    width: 600px;
+    border-radius:100%;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,26,9,1) 35%, rgba(0,212,255,1) 100%);
+}

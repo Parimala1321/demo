@@ -1,0 +1,136 @@
+.main{
+    height: 100svh;
+    width: 100%;
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.piont{
+    height:5%;
+    width:7%;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top:48%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.div1{
+    height:500%;
+    width:50%;
+    background-color: black;
+    position: absolute;
+    left:30%;
+    top:-490%;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+
+}
+.div2{
+     height:420%;
+    width:25%;
+    background-color: black;
+    position: absolute;
+    left:45%;
+    top: -400%;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+    animation-name: my_animation;
+    animation-duration:20s;
+    transform-origin: bottom;
+
+}
+.clock{
+    height:47%;
+    width: 25%;
+    background-color:white;
+    border-radius: 50%;
+    border:5px solid black;
+    position: relative;
+}
+.s1{
+    position: absolute;
+    top: 10%;
+    left:70%;  
+    font-size:200%;
+}
+.s2{
+    position: absolute;
+    top:25%;
+    left:85%;
+    font-size:200%;
+}
+.s3{
+position: absolute;
+top:43%;
+left:90%;
+font-size:300%;
+font-weight: 900;
+}
+.s4{
+    position: absolute;
+    top:66%;
+    left:86%;
+    font-size:200%;
+}
+.s5{
+position: absolute;
+top:83%;
+left:72%;
+font-size:200%;
+}
+.s6{
+    position: absolute;
+    top:88%;
+        left:49%;
+    font-size:300%;
+    font-weight: 900;
+}
+.s7{
+position: absolute;
+top:84%;
+left:27%;
+font-size: 200%;
+}
+.s8{
+    position: absolute;
+    top:69%;
+    left:12%;
+    font-size:200%;
+}
+.s9{
+position: absolute;
+top:47%;
+left:6%;
+font-size:300%;
+font-weight: 900;
+}
+.s10{
+    position: absolute;
+top: 28%;
+left:10%;
+font-size:200%;
+}
+.s11{
+    position: absolute;
+     top:10%;
+    left:24%;
+    font-size:200%;
+}
+.s12{
+    position: absolute;
+    top:3%;
+    left:45%;
+    font-size:300%;
+    font-weight: 900;
+}
+
+@keyframes my_animation{
+    0%{
+        transform: rotate(0deg); 
+    }
+    100%{
+        transform: rotate(360deg); 
+    }
+}

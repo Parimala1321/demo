@@ -1,0 +1,27 @@
+.parent{
+    height: 100%;
+    width:100%;
+    background-color: aqua;
+    /* display: flex; */
+    /* justify-content:space-around; */
+    /* justify-content:space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap:wrap ; */
+    /* align-items: center; */
+    /* justify-content:center; */
+    /* flex-direction: column-reverse; */
+     display: grid;
+     grid-template-rows: 3fr 1fr 1fr 1fr ;
+     grid-template-columns: 4fr 4fr 2fr 1fr;
+}
+.child{
+    height: 100px;
+    width:100px;
+    background-color: gold;
+    border: 2px solid salmon;
+}
+#my{
+    /* align-self: center; */
+    justify-self:end;
+    background-color: red;
+}

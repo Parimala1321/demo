@@ -1,0 +1,20 @@
+table,td{
+    /* border-collapse: collapse; */
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+table{
+    border-radius: 80px;
+    overflow: hidden;
+}
+tr:first-child{
+    background-color:red;
+
+}
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+tr:nth-child(odd):hover{
+    background-color:blue;
+}

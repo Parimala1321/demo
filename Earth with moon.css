@@ -1,0 +1,71 @@
+.main{
+    height: 100svh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url(./stars\ -\ Copy.jpg);
+    display: flex;
+    flex-wrap:wrap;
+    gap:3%;
+    display: flex;
+    /* animation-name: my_animation;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+} */
+.div1{
+    height: 30%;
+    width: 30%;
+    /* background-color: white; */
+    position: relative;
+}
+.earth{
+    height:30%;
+    width:25%;
+    /* background-color:skyblue; */
+    border-radius: 50%;
+    position:absolute;
+    top:40%;
+    left:35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* box-shadow: 2px 2px 15px rgb(151, 151, 163); */
+   
+}
+.s1{
+    height:fit-content;
+    width:fit-content;
+
+}
+.s1:hover{
+    transform: scale(1.5);
+}
+.moon{
+       height:10%;
+    width:4%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:3px 2px 10px white;
+    animation-name: my_animation;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+    }
+.s2{
+       height:100%;
+        width:100%;
+    
+    }
+@keyframes my_animation{
+    0%{
+      transform: rotate(0deg) translate(300px) ;
+        
+}
+    100%{
+    transform: rotate(360deg) translate(400px) ;
+}
+}

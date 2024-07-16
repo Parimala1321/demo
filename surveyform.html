@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./surveyform.css">
+        <script src="./surveyform.js"></script>
+    </head>
+    <body>
+        <div class="parent"><br>
+            <div class="div1">
+        <div class="child1"><lable> FirstName:</lable></div>
+        <div class="child2"><input  type="text"  onchange = " firstname(event)" ></div></div><br>
+
+        <div class="div1">
+        <div class="child1"><label >Last Name:</label></div>
+        <div class="child2"><input  type="text"  onchange = " lastname(event)" ></div></div><br>
+
+        <div class="div1">
+            <div class="child1"> <lable> D.O.B:</lable></div>
+            <div class="child2"> <input  type="date"  onchange = " date(event)" ></div></div><br>
+
+         <div class="div1">
+            <div class="child1"><lable>Father Name:</lable></div>
+            <div class="child2"> <input  type="text"  onchange = " fathername(event)" ></div></div><br>
+
+        <div class="div1">
+            <div class="child1"><lable> Mother Name:</lable>&nbsp;</div>
+            <div class="child2"> <input  type="text"  onchange = " mothername(event)" > </div></div><br>
+
+        <div class="div1">
+            <div class="child1"><lable> Address:</lable></div>
+            <div class="child2"> <input  type="textarea"  onchange = " address(event)" > </div></div><br>
+
+        <div class="div1">
+            <div class="child1"> <label>Gender:</label></div>
+            <div class="child2"><input  type="radio"name="gender" onchange = " gender(event)">Male
+           <input  type="radio"name="gender" onchange = " gender(event)">Female </div></div><br>
+        <div class="div1">
+        <div class="child1"><lable>Certification:</lable></div>
+        <div class="child2"><input  type="text"  onchange = "certificate(event)" > </div></div><br><br>
+        <label class="child3">Academic Details:</label>
+        <div class="div2">
+        <table border="">
+            <thead>
+                <th>N.I</th>
+                <th>YOP</th>
+                <th>Marks</th>
+                <th>Percentage</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSC</td>
+                    <td><input type="text" onchange="ssc_1(event)"></td>
+                    <td><input type="text" onchange="ssc_2(event)"></td>
+                    <td><input type="text" onchange="ssc_3(event)"></td>
+                </tr>
+                <tr>
+                    <td>Diploma</td>
+                    <td><input type="text" onchange="diploma_1(event)"></td>
+                    <td><input type="text" onchange="diploma_2(event)"></td>
+                    <td><input type="text" onchange="diploma_3(event)"></td>
+                </tr>
+                <tr>
+                    <td>BTECH</td>
+                    <td><input type="text" onchange="btech_1(event)"></td>
+                    <td><input type="text" onchange="btech_2(event)"></td>
+                    <td><input type="text" onchange="btech_3(event)"></td>
+                </tr>
+            </tbody>
+             </table></div>
+
+             <div class="div1">
+           <div class="child1"><lable> Skills:</lable></div>
+            <div class="child2"><input  type="text"  onchange = "skills(event)" ></div></div><br>
+
+            <div class="div1">
+                <div class="child1"><lable> Hobbies:</lable></div>
+           <div class="child2"><input  type="text"  onchange = " hobbies(event)" > </div></div><br>
+
+           <div class="div1">
+            <div class="child1"><lable>Badges:</lable></div>
+       <div class="child2"><input  type="text"  onchange = "badges(event)" > </div></div><br>
+
+       <div class="div1">
+        <div class="child1"><lable>Declaration:</lable></div>
+   <div class="child2"><input  type="text"  onchange = "declaration(event)" > </div></div><br>
+          <div class="div2">
+        <button onclick="submit(event)" class="b1">Submit</button></div>
+            </div>
+    </body>
+</html>

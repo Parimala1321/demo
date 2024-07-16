@@ -1,0 +1,56 @@
+.main{
+    height:500px;
+    width:500px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    position: relative;
+    perspective:50px;
+}
+.div1{
+    height: 100px;
+    width: 250px;
+    background-color: red;
+    transform: rotatex(-90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top:15%;
+    left:25%;
+}
+.div2{
+   height: 250px;
+   width: 100px;
+   background-color: yellow;
+   transform-style: preserve-3d;
+   transform: rotatey(-90deg);
+   position: absolute;
+   top:25%;
+   left:15%;
+}
+.div3{
+    height: 100px;
+   width: 250px;
+   background-color:blue;
+   transform-style: preserve-3d;
+   transform: rotatex(-90deg);
+   position: absolute;
+   bottom:15%;
+   left:25%;
+}
+.div4{
+  
+    height: 250px;
+   width: 100px;
+   background-color:green;
+   transform-style: preserve-3d;
+   transform: rotatey(-90deg);
+   position: absolute;
+   top:25%;
+   right:16%;
+}
+body{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    perspective:50px;
+}

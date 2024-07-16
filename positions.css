@@ -1,0 +1,29 @@
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blueviolet;
+    position: relative;
+
+}
+body{
+    height: 2000px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color:  violet;
+    position: absolute;
+    top:5px;
+    left:20px;
+    position: fixed;
+}
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border:2px solid rgb(0, 255, 140);
+    position:sticky;
+    top:50px;
+    left: 100px;
+    /* position: fixed; */
+}

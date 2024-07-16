@@ -1,0 +1,31 @@
+.parent{
+    position: relative;
+}
+.child1{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid red;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 6px;
+}
+.child2{
+    border: 2px solid blue;
+    width:fit-content;
+    position: absolute;
+    top: 25px;
+    display: none;
+    background-color: bisque;
+    padding: 4px;
+}
+.parent:hover .child2{
+    display: block;
+
+}
+.child2 div:hover{
+    background-color: azure;
+}
+.child1:hover{
+    background-color:aliceblue;
+}

@@ -1,0 +1,48 @@
+body{
+    height: 100svh;
+   
+  
+}
+.parent{
+     height:80%;
+    width:100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.child{
+    height:80%;
+    width: 80px;
+    /* border:  1px solid black; */
+    
+    
+}
+.child1{
+    height:100%;
+    width:100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+  height:300px;
+  width:300px;
+}
+li button{
+    display: none;
+}
+.slick-dots{
+    display: flex;
+    gap:10px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+ 
+}
+.slick-active{
+    color: red;
+}

@@ -1,0 +1,17 @@
+.myname{
+	font-size: 50px;
+	text-decoration:underline;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px black;
+	color: skyblue;
+}
+.mine{
+	border:4px ridge #FF6969;
+	color:#1679AB;
+	text-align: center;
+	background-color:#FFF6E9;
+	font-size: 50px;
+	font-family:cursive ;
+	font-weight:900;
+}

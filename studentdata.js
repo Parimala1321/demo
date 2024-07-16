@@ -1,0 +1,22 @@
+ export const studentdata =[
+    {
+        name:"Leo",
+        age:40,
+        number:456789
+    },
+    {
+        name:"karna",
+        age:60,
+        number:456789
+    },
+    {
+        name:"delhi",
+        age:35,
+        number:456789
+    },
+    {
+        name:"rolex",
+        age:38,
+        number:456789
+    },
+]

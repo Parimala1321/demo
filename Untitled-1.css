@@ -1,0 +1,252 @@
+<div class="div8">
+            <div class="l6">
+                <div class="l61"></div>
+            </div>
+            <div class="l7">
+                <div class="j1">
+                <div class="j11">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="j12">ALT smart tech pvt ltd no.15/1,Aswath katte road,Kasturba Nagar,Mysore Road,Bangalore</div>
+                </div>
+                <div class="j2">
+                    <div class="j21"><i class="fa-solid fa-phone"></i></div>
+                    <div class="j22">+91 9381661044</div>
+                </div>
+                <div class="j3">
+                    <div class="j31">Social Media</div>
+                    <div class="j32"><i class="fa-brands fa-facebook-f"></i>&nbsp&nbsp<i class="fa-brands fa-linkedin-in"></i>&nbsp&nbsp<i class="fa-brands fa-instagram"></i>&nbsp&nbsp<i class="fa-brands fa-whatsapp"></i>&nbsp&nbsp<i class="fa-solid fa-envelope"></i></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="l21">
+            <div class="l22">Explore</div>
+            <div class="l23">&nbsp&nbspOur Latest Collection</div>
+        </div>
+        <div class="l3">
+        Discover our latest catalog showcasing innovative lighting solutions,from elegant fixtures to cutting-edges LEDtechnology,illuminating your world with style and effiency</div>
+        <div class="l4">
+            <div class="l41">OutDoor</div>
+            <div class="l41">Signature</div>
+            <div class="l41">Pro</div>
+        </div>
+        <div class="l5">
+            <div class="l51">Download<i class="fa-solid fa-angle-down"></i></div>
+        </div>
+    </div>
+</div>
+
+
+
+.l21{
+    height:20%;
+    width:100%;
+    background-color:rgb(209, 31, 99); 
+     display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:10%;
+    right:15%;
+}
+.l22{
+    height:100%;
+    width:40%;
+    font-size:300%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    background-color: aqua;
+   
+}
+.l23{
+    height:100%;
+    width:60%;
+    font-size:300%;
+    color:red;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    /* background-color: azure; */
+    
+}
+.l3{
+    height:20%;
+    width:70%;
+    /* background-color:green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    color: rgb(187, 179, 179);
+    position: relative;
+    top:5%;
+    left:10%;
+}
+
+.l4{
+    height:20%;
+    width:100%;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   column-gap: 20px;
+   position: relative;
+   top:10%;
+   left:2%;
+}
+.l41{
+    height:30%;
+    width:20%;
+    font-size: 150%;
+    border: 2px solid red;
+    background-color: black;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    
+}
+.l41:hover{
+    background-color: red;
+    color:white;
+}
+.l5{
+    height: 100px;
+    width:1000px;
+    position: relative;
+    left:10%;
+    /* background-color: red; */
+}
+.l51{
+    height:30px;
+    width:200px;
+    border: 4px solid red;
+    font-size:150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50px;
+    /* position: relative;
+    left:1%; */
+} 
+
+
+
+
+
+.div8{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.l6{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.l61{
+    height:25%;
+    width:40%;
+    /* background-color:red; */
+    position: relative;
+    top:35%;
+    left:30%;
+    background-image: url(./alt\ logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.l7{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(26, 164, 19); */
+}
+.j1{
+    height:40%;
+    width:100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.j11{
+    height:100%;
+    width:20%;
+    /* background-color:yellow; */
+    font-size:200%;
+         display: flex;
+      align-items: center;
+     justify-content:center;
+     color:white;
+}
+.j12{
+    height:100%;
+    width:80%;
+    /* background-color:rgb(118, 118, 90); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    color: white;
+}
+.j2{
+height:10%;
+width:100%;
+/* background-color: grey; */
+display: flex;
+flex-wrap: wrap;
+}
+.j21{
+height:100%;
+width:20%;
+/* background-color:violet; */
+font-size:200%;
+         display: flex;
+      align-items: center;
+     justify-content:center;
+     color:white;
+}
+.j22{
+height:100%;
+width:80%;
+/* background-color:rgb(118, 118, 90); */
+display: flex;
+align-items:center;
+justify-content:start;
+font-size: 150%;
+color:white;
+}
+.j3{
+    height:30%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.j31{
+    height:100%;
+    width:30%;
+    /* background-color:yellow; */
+    display: flex;
+align-items:center;
+justify-content:center;
+font-size: 150%;
+color:white;
+}
+.j32{
+    height:100%;
+    width:60%;
+    /* background-color: black; */
+    color:white;
+    font-size: 200%;
+    display: flex;
+align-items:center;
